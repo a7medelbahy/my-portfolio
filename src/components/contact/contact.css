@@ -1,0 +1,35 @@
+.contact-box .info-icon {
+    font-size: 24px;
+    color: var(--main-color);
+  }
+  .contact-info .contact-box .info-data a {
+    color: var(--secondary-white-color);
+    transition: var(--main-transition);
+  }
+  .contact-info .contact-box .info-data a:hover {
+    color: var(--main-color);
+  }
+  
+  .contact-info .social-media li a {
+    font-size: 22px;
+    color: var(--secondary-white-color);
+    transition: var(--main-transition);
+  }
+  .contact-info .social-media li a:hover {
+    color: var(--main-color);
+  }
+  
+  .contact-form form input,
+  .contact-form form textarea {
+    background-color: var(--secondary-black-color);
+    color: white;
+  }
+  .contact-form form input:focus,
+  .contact-form form textarea:focus {
+    outline: 1px solid var(--main-color);
+  }
+  .contact-form form input::placeholder,
+  .contact-form form textarea::placeholder {
+    color: var(--secondary-white-color);
+  }
+  

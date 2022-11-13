@@ -1,0 +1,74 @@
+.services .service-box {
+    border: 1px solid var(--main-color);
+    height: 250px;
+    position: relative;
+  }
+  .services .service-box .service-info {
+    position: absolute;
+    left: 0;
+    bottom: -100%;
+    height: 100%;
+    width: 100%;
+    transition: var(--main-transition);
+    color: white;
+    background-color: rgb(255 180 0 / 88%);
+  }
+  .services .service-box:hover .service-info {
+    bottom: 0;
+  }
+  
+  .plan-box {
+    box-shadow: 0px 0px 5px #ccc;
+    transition: var(--main-transition);
+  }
+  .plan-box:hover {
+    box-shadow: 0px 0px 5px var(--main-color);
+  }
+  .plan-box .price-box {
+    background-color: var(--secondary-black-color);
+    width: 100%;
+  }
+  .plan-box .price-box h4 {
+    letter-spacing: 3px;
+  }
+  .plan-box .price-box p {
+    color: var(--main-color);
+    font-size: 28px;
+  }
+  .plan-box .price-box sup,
+  sub {
+    color: #00ff08;
+    font-size: 20px;
+  }
+  .plan-box .price-box h3 {
+    width: 60px;
+    height: 60px;
+    background-color: var(--main-color);
+    transition: var(--main-transition);
+  }
+  .plan-box .price-box h3 i {
+    color: var(--secondary-white-color);
+    font-size: 24px;
+    transition: var(--main-transition);
+    transform: scale(1);
+  }
+  .plan-box:hover .price-box h3 {
+    box-shadow: 0px 0px 5px 5px var(--main-color);
+  }
+  .plan-box:hover .price-box h3 i {
+    color: white;
+    animation: planIcon 1s linear infinite;
+  }
+  @keyframes planIcon {
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(1.5);
+    }
+  }
+  
+  .plan-box .plan-features li {
+    border-bottom: 1px solid var(--secondary-black-color);
+  }
+  

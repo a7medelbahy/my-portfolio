@@ -1,0 +1,86 @@
+.about .personal-info h3 {
+    letter-spacing: 3px;
+  }
+  .about .about-stats .static h2 {
+    color: var(--main-color);
+  }
+  .about .about-stats .static {
+    border: 1px solid var(--secondary-white-color);
+  }
+  
+  .about .my-skills .skill-box h4 {
+    color: var(--main-color);
+  }
+  
+  .CircularProgressbar-path {
+    stroke: var(--main-color) !important;
+  }
+  .CircularProgressbar-trail {
+    stroke: var(--secondary-black-color) !important;
+  }
+  .CircularProgressbar-text {
+    fill: white !important;
+  }
+  
+  .resume .resume-box {
+    position: relative;
+  }
+  .resume .resume-box h4 {
+    position: relative;
+  }
+  .resume .resume-box h4::before {
+    position: absolute;
+    content: "\f073";
+    font-family: "Font Awesome 6 Free";
+    left: -9px;
+    color: white;
+    background-color: var(--main-color);
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+  }
+  .resume .resume-box::before {
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 100%;
+    background-color: white;
+    bottom: 0;
+    left: 3px;
+  }
+  .resume .resume-box .content .resumeInfo-box h5 {
+    color: var(--main-color);
+  }
+  .resume .resume-box .content .resumeInfo-box {
+    background-color: var(--secondary-black-color);
+    position: relative;
+  }
+  .resume .resume-box .content .resumeInfo-box::before {
+    position: absolute;
+    content: "";
+    height: 14px;
+    width: 14px;
+    top: 50%;
+    transform: translateY(-50%) rotate(45deg);
+    background-color: var(--secondary-black-color);
+    left: -7px;
+  }
+  .resume .resume-box .content .resumeInfo-box::after {
+    position: absolute;
+    content: "";
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 2px solid white;
+    color: var(--main-color);
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    left: -26px;
+    background-color: #111;
+  }
+  

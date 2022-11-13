@@ -1,0 +1,9 @@
+  .home .home-img {
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    background: linear-gradient(360deg, #0c0c0c 0%, #ff9c00 100%, #ffb400 100%);
+  }
+  .home .home-content h1 {
+    color: var(--main-color);
+  }
+  
